@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.css"
     />
+    <style></style>
   </head>
 
   <body class="container-fluid">
@@ -39,12 +40,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="Prices.html">Prices</a>
+              <a class="nav-link" href="#">Prices</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="createaccount.html"
-                >Crate Account</a
-              >
+              <a class="nav-link" href="createaccount.html">Crate Account</a>
             </li>
           </ul>
         </div>
@@ -53,7 +52,40 @@
     <br />
 
     <!-- End of Nav Bar -->
-    <h1 class="text-center text-info">PROJECTX MUSIC HUB</h1>
+
+    <!-- table showing prices for single,family,or just two. -->
+    <h1 class="text-center text-info">
+      Thinking of Joining? <br />
+      Check Out Our Prices!
+    </h1>
+    <br />
+
+    <table class="table table-striped table-hover table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Plan</th>
+          <th scope="col">Price</th>
+          <th scope="col">Contract</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>For 1 Person</td>
+          <td>10.99</td>
+          <td>per Month</td>
+        </tr>
+        <tr>
+          <td>For 2 People</td>
+          <td>15.99</td>
+          <td>Per Month</td>
+        </tr>
+        <tr>
+          <td>For up to 5 People</td>
+          <td>30.00</td>
+          <td>Per Month or 100 For A Year</td>
+        </tr>
+      </tbody>
+    </table>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
