@@ -11,12 +11,12 @@
     />
   </head>
 
-  <body class="container-fluid">
+  <body class="container-fluid bg-dark">
     <!-- start of nav bar  -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">ProjectX</a>
+        <a class="navbar-brand" href="week10html.html">ProjectX</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,18 +43,38 @@
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="createaccount.html"
-                >Crate Account</a
+                >Create Account</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <br />
 
     <!-- End of Nav Bar -->
-    <h1 class="text-center text-info">PROJECTX MUSIC HUB</h1>
+    <h1 class="text-center text-info m-4">PROJECTX MUSIC HUB</h1>
 
+    <!-- •	A Bootstrap styled form that allows a user to add a new row to the table when clicking on submit. -->
+    <body class="container"> <br>
+      <div class="card-body">
+        <div class="row">
+          <dv class="col-sm">
+            <div class="form-group">
+              <label class='text-white' for="new-playList-name">Create Playlist</label>
+              <input type="text" class="form-control" id="new-playList-name">
+            </div>
+          </div>
+        </div>
+        <div>
+          <button id="new-playList" class="btn btn-primary form-control">Create New Playlist</button>
+        </div>
+      </div>
+      <br>
+  
+      <div class='text-white'id="playLists">
+      </div>
+    </body>
+    <script src="JSweek10.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
